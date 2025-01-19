@@ -9,8 +9,10 @@
 - **Name:** Darshan Mevawala  
   **Student Number:** 1258769
 
-<!-- Add your Name Here -->
+- **Name:** Hasti Kalathiya  
+  **Student Number:** 1249415
 
+<!-- Add your Name Here -->
 
 ---
 
