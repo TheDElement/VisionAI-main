@@ -3,14 +3,13 @@
 # Project: AI Vision Assistant
 
 ### **Team Details:**
+- **FOL Group ID:** Section A Group 7
+- **Team Members:** [4]
+
 - **Name:** Darshan Mevawala  
   **Student Number:** 1258769
 
-- **Name:** Harsh Patel  
-  **Student Number:** 1252428
-
-- **Name:** Hasti Kalathiya  
-  **Student Number:** 1249415
+<!-- Add your Name Here -->
 
 ---
 
@@ -24,6 +23,13 @@ The **AI Vision Assistant** is a web application designed to bring AI-powered vi
 - **Backend:** Node.js (Express.js for REST APIs)
 - **Database:** MongoDB (NoSQL database for scalable storage of user data and logs)
 - **Cloud Infrastructure:** AWS (S3 for image storage, Lambda for real-time processing, and CloudWatch for monitoring)
+
+---
+
+### **Data Source Information**
+- **Type:** Multi-user input
+- **Details:** The application uses a remote MongoDB database to store user data, including query logs, image metadata, and authentication details. It requires unique user identification for managing personalized settings and secure data sharing. Captured images are stored in AWS S3 buckets for processing and retrieval.  
+- **Difficulty Level:** Medium
 
 ---
 
