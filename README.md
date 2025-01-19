@@ -12,7 +12,8 @@
 - **Name:** Hasti Kalathiya  
   **Student Number:** 1249415
 
-<!-- Add your Name Here -->
+- **Name:** Durva Bhatt
+- **Student Number:** 1247922
 
 ---
 
@@ -79,7 +80,10 @@ The **AI Vision Assistant** is a web application designed to bring AI-powered vi
 - **Custom Wakeup Commands:** Allow users to personalize activation commands.
 - **Real-Time Notifications:** Implement notifications for system actions like processing or errors.
 
-<!-- Team Add Your feature here -->
+#### **Durva Bhatt**
+•⁠  ⁠*Dynamic Camera View:* Design and implement a responsive live camera feed UI.
+•⁠  ⁠*Responsive Design:* Ensure cross-device compatibility for the application.
+•⁠  ⁠*Scalability and Security:* Configure AWS services for scaling and secure communication.
 ---
 
 ### **Stretch Features**
