@@ -72,6 +72,11 @@ The **AI Vision Assistant** is a web application designed to bring AI-powered vi
 - *Contextual Query Handling:* Enable users to ask questions about recognized objects or text.
 - *Query Logs:* Create and manage a system for storing user queries.
 
+#### **Hasti Kalathiya**
+- **Login and Signup:** Develop secure user authentication and token-based session management.
+- **Custom Wakeup Commands:** Allow users to personalize activation commands.
+- **Real-Time Notifications:** Implement notifications for system actions like processing or errors.
+
 <!-- Team Add Your feature here -->
 ---
 
