@@ -66,6 +66,11 @@ The **AI Vision Assistant** is a web application designed to bring AI-powered vi
 - **Real-Time Image Capture:** Integrate camera functionality for capturing images.
 - **AWS S3 Integration:** Set up secure image storage.
 
+#### *Harsh Patel*
+- *Object Recognition:* Develop AI model integration for object detection.
+- *Contextual Query Handling:* Enable users to ask questions about recognized objects or text.
+- *Query Logs:* Create and manage a system for storing user queries.
+
 <!-- Team Add Your feature here -->
 ---
 
