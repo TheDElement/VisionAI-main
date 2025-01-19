@@ -70,3 +70,64 @@ The **AI Vision Assistant** is a web application designed to bring AI-powered vi
 4. **Advanced AI Features:** Include facial recognition and sentiment analysis capabilities.
 
 ---
+
+### **How to Run the Project**
+#### **Prerequisites:**
+- Node.js and npm installed.
+- MongoDB instance running locally or remotely.
+- AWS account for cloud services (S3, Lambda, etc.).
+
+#### **Steps:**
+1. **Clone the Repository:**
+   ```bash
+   git clone <repository_url>
+   cd AI-Vision-Assistant
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   cd frontend && npm install
+   cd ../backend && npm install
+   ```
+
+3. **Set Up Environment Variables:**
+   - Create `.env` files in the `frontend` and `backend` directories.
+   - Include necessary keys like `JWT_SECRET`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and database credentials.
+
+4. **Run the Application:**
+   - Start the backend server:
+     ```bash
+     cd backend
+     npm start
+     ```
+   - Start the frontend application:
+     ```bash
+     cd frontend
+     npm run dev
+     ```
+
+5. **Access the Application:**
+   - Open `http://localhost:3000` in your browser to use the app.
+
+---
+
+### **Deployment**
+1. **Frontend Deployment:** Host the Next.js application on Vercel.
+   - **Steps:**
+   
+     1. Install the [Vercel CLI](https://vercel.com/docs/cli) or use the Vercel dashboard.
+     2. Deploy the Next.js project:
+        ```bash
+        vercel
+        ```
+     3. Follow the prompts to configure your project.
+     4. Access the live URL provided by Vercel.
+
+2. **Backend Deployment:** Use AWS Elastic Beanstalk or EC2 for the Node.js server.
+3. **Database:** Deploy MongoDB using MongoDB Atlas or an AWS-hosted instance.
+
+---
+
+### **Acknowledgments**
+This project is a collaborative effort to demonstrate the integration of AI, modern web technologies, and cloud infrastructure in solving real-world challenges with innovative solutions.
