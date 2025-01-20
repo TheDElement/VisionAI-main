@@ -9,13 +9,13 @@
 - **Name:** Darshan Mevawala  
   **Student Number:** 1258769
 
-- **Name:** Darshan Mevawala  
-  **Student Number:** 1258769
+- **Name:** Harsh Patel 
+  **Student Number:** 1252428
 
 - **Name:** Hasti Kalathiya  
   **Student Number:** 1249415
 
-- **Name:** Durva Bhatt
+- **Name:** Durva Bhatt 
   **Student Number:** 1247922
 
 ---
@@ -87,7 +87,7 @@ The **AI Vision Assistant** is a web application designed to bring AI-powered vi
 •⁠  ⁠**Dynamic Camera View:** Design and implement a responsive live camera feed UI.
 •⁠  ⁠**Responsive Design:** Ensure cross-device compatibility for the application.
 •⁠  ⁠**Scalability and Security:** Configure AWS services for scaling and secure communication.
----
+
 
 ### **Stretch Features**
 1. **Multilingual Support:** Enable AI to interact in various languages.
