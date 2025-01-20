@@ -9,13 +9,13 @@
 - **Name:** Darshan Mevawala  
   **Student Number:** 1258769
 
-- **Name:** Harsh Patel 
+- **Name:** Harsh Patel  
   **Student Number:** 1252428
 
 - **Name:** Hasti Kalathiya  
   **Student Number:** 1249415
 
-- **Name:** Durva Bhatt 
+- **Name:** Durva Bhatt  
   **Student Number:** 1247922
 
 ---
