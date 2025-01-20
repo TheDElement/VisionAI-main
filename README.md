@@ -84,9 +84,9 @@ The **AI Vision Assistant** is a web application designed to bring AI-powered vi
 - **Real-Time Notifications:** Implement notifications for system actions like processing or errors.
 
 #### **Durva Bhatt**
-•⁠  ⁠**Dynamic Camera View:** Design and implement a responsive live camera feed UI.
-•⁠  ⁠**Responsive Design:** Ensure cross-device compatibility for the application.
-•⁠  ⁠**Scalability and Security:** Configure AWS services for scaling and secure communication.
+- ⁠**Dynamic Camera View:** Design and implement a responsive live camera feed UI.
+- ⁠**Responsive Design:** Ensure cross-device compatibility for the application.
+- **Scalability and Security:** Configure AWS services for scaling and secure communication.
 
 
 ### **Stretch Features**
