@@ -9,11 +9,14 @@
 - **Name:** Darshan Mevawala  
   **Student Number:** 1258769
 
+- **Name:** Darshan Mevawala  
+  **Student Number:** 1258769
+
 - **Name:** Hasti Kalathiya  
   **Student Number:** 1249415
 
 - **Name:** Durva Bhatt
-- **Student Number:** 1247922
+  **Student Number:** 1247922
 
 ---
 
@@ -70,10 +73,10 @@ The **AI Vision Assistant** is a web application designed to bring AI-powered vi
 - **Real-Time Image Capture:** Integrate camera functionality for capturing images.
 - **AWS S3 Integration:** Set up secure image storage.
 
-#### *Harsh Patel*
-- *Object Recognition:* Develop AI model integration for object detection.
-- *Contextual Query Handling:* Enable users to ask questions about recognized objects or text.
-- *Query Logs:* Create and manage a system for storing user queries.
+#### **Harsh Patel**
+- **Object Recognition:** Develop AI model integration for object detection.
+- **Contextual Query Handling:** Enable users to ask questions about recognized objects or text.
+- **Query Logs:** Create and manage a system for storing user queries.
 
 #### **Hasti Kalathiya**
 - **Login and Signup:** Develop secure user authentication and token-based session management.
@@ -81,9 +84,9 @@ The **AI Vision Assistant** is a web application designed to bring AI-powered vi
 - **Real-Time Notifications:** Implement notifications for system actions like processing or errors.
 
 #### **Durva Bhatt**
-•⁠  ⁠*Dynamic Camera View:* Design and implement a responsive live camera feed UI.
-•⁠  ⁠*Responsive Design:* Ensure cross-device compatibility for the application.
-•⁠  ⁠*Scalability and Security:* Configure AWS services for scaling and secure communication.
+•⁠  ⁠**Dynamic Camera View:** Design and implement a responsive live camera feed UI.
+•⁠  ⁠**Responsive Design:** Ensure cross-device compatibility for the application.
+•⁠  ⁠**Scalability and Security:** Configure AWS services for scaling and secure communication.
 ---
 
 ### **Stretch Features**
