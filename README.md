@@ -69,21 +69,25 @@ The **AI Vision Assistant** is a web application designed to bring AI-powered vi
 
 ### **Feature Allocation**
 #### **Darshan Mevawala (Team Lead)**
+- **Dark Mode:** Change theme as per user.
 - **Wakeup Command:** Implement voice recognition for commands like "Arise."
 - **Real-Time Image Capture:** Integrate camera functionality for capturing images.
 - **AWS S3 Integration:** Set up secure image storage.
 
 #### **Harsh Patel**
+- **Object Decode:** Know the Object.
 - **Object Recognition:** Develop AI model integration for object detection.
 - **Contextual Query Handling:** Enable users to ask questions about recognized objects or text.
 - **Query Logs:** Create and manage a system for storing user queries.
 
 #### **Hasti Kalathiya**
+- **Plateform :** Interface as per Device.
 - **Login and Signup:** Develop secure user authentication and token-based session management.
 - **Custom Wakeup Commands:** Allow users to personalize activation commands.
 - **Real-Time Notifications:** Implement notifications for system actions like processing or errors.
 
 #### **Durva Bhatt**
+- ⁠**Sound Dynamics:** Recognise Sound.
 - ⁠**Dynamic Camera View:** Design and implement a responsive live camera feed UI.
 - ⁠**Responsive Design:** Ensure cross-device compatibility for the application.
 - **Scalability and Security:** Configure AWS services for scaling and secure communication.
