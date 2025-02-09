@@ -1,6 +1,7 @@
+
 # VisionAI
 
-# Project: AI Vision Assistant
+## Project: Full Stack AI Career Coach
 
 ### **Team Details:**
 - **FOL Group ID:** Section A Group 7
@@ -21,93 +22,118 @@
 ---
 
 ### **Project Overview**
-The **AI Vision Assistant** is a web application designed to bring AI-powered vision capabilities to life. By integrating a camera interface with real-time image processing and AI query handling, users can interact with the app to analyze their surroundings, recognize objects, and receive context-aware responses. 
+The **Full Stack AI Career Coach** is a web application designed to assist job seekers in their career journey. The platform leverages AI to generate ATS-friendly resumes and cover letters, alongside providing industry-specific reports to keep users updated on the latest trends and job role requirements.
 
 ---
 
 ### **Technology Stack**
 - **Frontend:** Next.js (React-based framework for server-side rendering and modern UI development)
 - **Backend:** Node.js (Express.js for REST APIs)
-- **Database:** MongoDB (NoSQL database for scalable storage of user data and logs)
-- **Cloud Infrastructure:** AWS (S3 for image storage, Lambda for real-time processing, and CloudWatch for monitoring)
-
----
-
-### **Data Source Information**
-- **Type:** Multi-user input
-- **Details:** The application uses a remote MongoDB database to store user data, including query logs, image metadata, and authentication details. It requires unique user identification for managing personalized settings and secure data sharing. Captured images are stored in AWS S3 buckets for processing and retrieval.  
-- **Difficulty Level:** Medium
+- **Database:** Neon DB (PostgreSQL for efficient data management)
+- **ORM:** Prisma (for database schema management)
+- **Cloud Functions:** Inngest (for serverless event-driven workflows)
+- **UI Framework:** Shadcn UI (for modern, accessible UI components)
+- **Styling:** Tailwind CSS (for responsive, utility-first design)
 
 ---
 
 ### **Features**
 #### **Core Features**
-1. **Wakeup Command:** Activate the system using voice commands like "Arise."
-2. **Real-Time Image Capture:** Stream and capture images from the device's camera.
-3. **Object Recognition:** Analyze the environment to identify objects using AI models.
-4. **Text Recognition (OCR):** Extract text from images for queries like document reading or signage understanding.
-5. **Contextual Query Handling:** Ask AI questions about the recognized objects or text.
+1. **Resume Generator:** Create ATS-friendly resumes tailored to specific job roles using AI.
+2. **Cover Letter Generator:** Generate personalized, professional cover letters.
+3. **Industry Report Generator:** Provide real-time industry insights and latest job role updates.
+4. **Job Role Recommendations:** AI-driven suggestions based on user profile and career goals.
+5. **Document Templates:** Multiple templates for resumes and cover letters.
 
 #### **Authentication**
 1. **Login and Signup:** Secure user authentication with password encryption and token-based session management.
-2. **Custom Wakeup Commands:** Allow users to personalize voice activation commands.
+2. **Profile Management:** Allow users to update personal information and job preferences.
 
 #### **User Interface**
-1. **Dynamic Camera View:** Display a live camera feed with an intuitive query box for typed or spoken input.
-2. **Real-Time Notifications:** Provide feedback during processing, such as "Analyzing Image" or "Listening..." 
-3. **Responsive Design:** Ensure compatibility with mobile and desktop devices.
+1. **Dashboard:** Central hub for managing resumes, cover letters, and industry reports.
+2. **Real-Time Notifications:** Instant feedback on actions like resume generation and job recommendations.
+3. **Responsive Design:** Optimized for mobile and desktop experiences.
 
 #### **Data Handling**
-1. **Query Logs:** Store user interactions for review or analytics.
-2. **Image Storage:** Save captured images securely in AWS S3 buckets.
+1. **User Data Storage:** Securely store user profiles, documents, and preferences.
+2. **Analytics Dashboard:** Provide insights on job trends and user interaction metrics.
 
 #### **Security and Scalability**
-1. **Secure Communication:** Use HTTPS and encrypted tokens for secure data exchange.
-2. **Scalability:** Support high-traffic scenarios with AWS auto-scaling and serverless architecture.
+1. **Secure Communication:** Use HTTPS, JWT, and encryption for secure data handling.
+2. **Scalability:** Built with serverless architecture to handle high-traffic scenarios.
 
 ---
 
 ### **Feature Allocation**
 #### **Darshan Mevawala (Team Lead)**
-- **Wakeup Command:** Implement voice recognition for commands like "Arise."
-- **Real-Time Image Capture:** Integrate camera functionality for capturing images.
-- **AWS S3 Integration:** Set up secure image storage.
+- **Dark Mode:** Implement theme toggle for user customization.
+- **Resume Generator:** Integrate AI model for generating ATS-friendly resumes.
+- **AWS Integration:** Manage deployment and serverless functions.
+- **Job Role Recommendations:** Develop AI algorithms for career suggestions.
 
 #### **Harsh Patel**
-- **Object Recognition:** Develop AI model integration for object detection.
-- **Contextual Query Handling:** Enable users to ask questions about recognized objects or text.
-- **Query Logs:** Create and manage a system for storing user queries.
+- **Cover Letter Generator:** Develop AI-driven cover letter generation.
+- **Industry Report Generator:** Implement real-time industry insights feature.
+- **Analytics Dashboard:** Design and develop job trends analytics.
+- **Document Templates:** Create and manage multiple templates for resumes and cover letters.
 
 #### **Hasti Kalathiya**
-- **Login and Signup:** Develop secure user authentication and token-based session management.
-- **Custom Wakeup Commands:** Allow users to personalize activation commands.
-- **Real-Time Notifications:** Implement notifications for system actions like processing or errors.
+- **Authentication:** Secure login/signup functionality.
+- **Profile Management:** Enable users to update personal info.
+- **Real-Time Notifications:** System notifications for user actions.
+- **User Data Storage:** Implement secure data storage for user profiles and documents.
 
 #### **Durva Bhatt**
-- ⁠**Dynamic Camera View:** Design and implement a responsive live camera feed UI.
-- ⁠**Responsive Design:** Ensure cross-device compatibility for the application.
-- **Scalability and Security:** Configure AWS services for scaling and secure communication.
+- **UI/UX Design:** Responsive design using Tailwind CSS and Shadcn UI.
+- **Scalability and Security:** Implement best practices for performance and security.
+- **Integration with Job Portals:** Enable direct application to job listings via APIs.
+- **AI Interview Prep:** Develop mock interview features with AI-generated questions and feedback.
 
+---
 
 ### **Stretch Features**
-1. **Multilingual Support:** Enable AI to interact in various languages.
-2. **Augmented Reality (AR):** Overlay contextual labels directly on the camera feed.
-3. **Offline Mode:** Limited functionality without an internet connection.
-4. **Advanced AI Features:** Include facial recognition and sentiment analysis capabilities.
+1. **Multilingual Support:** Support for multiple languages in resume/cover letter generation.
+2. **Job Application Tracker:** Track job applications and statuses.
+3. **Advanced Analytics:** Provide detailed insights on job trends and user behavior.
+4. **Offline Mode:** Limited functionality without an internet connection.
+
+---
+
+### **Sprint 1 Tasks**
+1. **Project Setup:**
+   - Initialize Next.js and Node.js repositories.
+   - Set up Neon DB and Prisma ORM.
+   - Configure Inngest for event-driven workflows.
+
+2. **Authentication Module:**
+   - Implement user registration and login.
+   - Token-based session management.
+
+3. **Resume Generator MVP:**
+   - Develop basic AI-powered resume generation.
+   - Basic template integration.
+
+4. **Responsive UI Design:**
+   - Dashboard wireframe design.
+   - Implement core UI components.
+
+5. **Environment Setup:**
+   - Set up `.env` files for environment variables.
+   - Configure deployment pipelines (Vercel for frontend, AWS for backend).
 
 ---
 
 ### **How to Run the Project**
 #### **Prerequisites:**
 - Node.js and npm installed.
-- MongoDB instance running locally or remotely.
-- AWS account for cloud services (S3, Lambda, etc.).
+- Neon DB instance.
+- AWS/Inngest account for cloud services.
 
 #### **Steps:**
 1. **Clone the Repository:**
    ```bash
    git clone <repository_url>
-   cd AI-Vision-Assistant
+   cd Full-Stack-AI-Career-Coach
    ```
 
 2. **Install Dependencies:**
@@ -118,42 +144,40 @@ The **AI Vision Assistant** is a web application designed to bring AI-powered vi
    ```
 
 3. **Set Up Environment Variables:**
-   - Create `.env` files in the `frontend` and `backend` directories.
-   - Include necessary keys like `JWT_SECRET`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and database credentials.
+   - Create `.env` files in `frontend` and `backend`.
+   - Include keys for JWT, DB credentials, AWS access, etc.
 
 4. **Run the Application:**
-   - Start the backend server:
+   - Start the backend:
      ```bash
      cd backend
      npm start
      ```
-   - Start the frontend application:
+   - Start the frontend:
      ```bash
      cd frontend
      npm run dev
      ```
 
 5. **Access the Application:**
-   - Open `http://localhost:3000` in your browser to use the app.
+   - Visit `http://localhost:3000`.
 
 ---
 
 ### **Deployment**
-1. **Frontend Deployment:** Host the Next.js application on Vercel.
-   - **Steps:**
-   
-     1. Install the [Vercel CLI](https://vercel.com/docs/cli) or use the Vercel dashboard.
-     2. Deploy the Next.js project:
-        ```bash
-        vercel
-        ```
-     3. Follow the prompts to configure your project.
-     4. Access the live URL provided by Vercel.
+1. **Frontend Deployment:**
+   - Host on Vercel using Vercel CLI:
+     ```bash
+     vercel
+     ```
 
-2. **Backend Deployment:** Use AWS Elastic Beanstalk or EC2 for the Node.js server.
-3. **Database:** Deploy MongoDB using MongoDB Atlas or an AWS-hosted instance.
+2. **Backend Deployment:**
+   - Deploy on AWS (EC2 or Lambda).
+
+3. **Database:**
+   - Neon DB hosted instance.
 
 ---
 
 ### **Acknowledgments**
-This project is a collaborative effort to demonstrate the integration of AI, modern web technologies, and cloud infrastructure in solving real-world challenges with innovative solutions.
+This project is a collaborative effort to showcase how AI can revolutionize career development through automation and personalized coaching.
