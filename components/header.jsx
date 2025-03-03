@@ -38,7 +38,7 @@ export default async function Header() {
         {/* Action Buttons */}
         <div className="flex items-center space-x-2 md:space-x-4">
           <SignedIn>
-            {/* <Link href="/dashboard">
+            <Link href="/dashboard">
               <Button
                 variant="outline"
                 className="hidden md:inline-flex items-center gap-2"
@@ -49,7 +49,7 @@ export default async function Header() {
               <Button variant="ghost" className="md:hidden w-10 h-10 p-0">
                 <LayoutDashboard className="h-4 w-4" />
               </Button>
-            </Link> */}
+            </Link>
 
             {/* Growth Tools Dropdown */}
             <DropdownMenu>
