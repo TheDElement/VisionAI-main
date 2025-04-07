@@ -15,7 +15,6 @@ export default async function InterviewPrepPage() {
       </div>
       <div className="space-y-6">
         <StatsCards assessments={assessments} />
-        <PerformanceChart assessments={assessments} />
         <QuizList assessments={assessments} />
       </div>
     </div>
